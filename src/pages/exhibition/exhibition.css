@@ -1,0 +1,41 @@
+.exhibition {
+    padding: 1rem;
+}
+
+.exhibition h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: .3rem 0;
+}
+
+.exhibition h3 {
+    font-size: .9rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.exhibition time {
+    color: hsl(4, 100%, 61%);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.active-exhibition {
+    display: flex;
+    width: fit-content;
+    margin: 1.5rem auto 0 auto;
+    gap: 5px;
+}
+
+.active-exhibition button {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: hsl(0, 0%, 59%);
+    border: none;
+    transition: all .3s ease;
+}
+
+.active-exhibition .current {
+    background: hsl(4, 100%, 61%);
+    transform: scale(1.2);
+}

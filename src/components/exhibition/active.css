@@ -1,0 +1,42 @@
+.active-exhibition-tab {
+    padding: 0 .5rem;
+}
+
+.about {
+    text-align: center;
+    font-size: .8rem;
+    display: block;
+    width: fit-content;
+    margin: 1rem auto;
+    color: hsl(0, 0%, 59%);
+    transition: all .3s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.arrow-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 450px;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.arrow-down h2 {
+    color: #979797;
+    font-size: 1rem;
+}
+
+.arrow-down img {
+    height: 10px;
+}
+
+.description {
+    color: #979797;
+    font-size: .8rem;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
