@@ -1,0 +1,67 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    background: url('../../assets/Background\ Image.png') no-repeat;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.login h1 {
+    color: white;
+    font-size: 2.6rem;
+    line-height: 2.9rem;
+    font-weight: 500;
+}
+
+.login .address {
+    font-size: 1rem;
+    color: white;
+    margin: 1rem 0;
+}
+
+.login form {
+    padding: 0;
+}
+
+.login input {
+    padding: .7rem 1rem;
+    color: black;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin-bottom: 3px;
+    font-size: .9rem;
+}
+
+.login input:focus {
+    outline: 1px solid hsl(0, 0%, 60%);
+}
+
+.login .forgot-pasword {
+    display: block;
+    margin: 10px 0 0 auto;
+    font-size: .9rem;
+    color: white;
+    width: fit-content;
+}
+
+.login button {
+    background: hsl(4, 100%, 61%);
+    border: none;
+    color: white;
+    font-size: .9rem;
+    padding: .7rem 1rem;
+    width: 100%;
+    margin: 1.5rem 0 .4rem 0;
+    cursor: pointer;
+}
+
+.login .account {
+    color: white;
+    font-size: .9rem;
+    margin-top: .5rem;
+}

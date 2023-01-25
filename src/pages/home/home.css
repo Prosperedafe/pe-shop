@@ -1,0 +1,59 @@
+.home .intro__image {
+    width: 100%;
+}
+
+.home h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.home h3 {
+    font-size: 1rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.home time {
+    color: hsl(4, 100%, 61%);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.home button {
+    color: white;
+    font-size: .9rem;
+    background: hsl(4, 100%, 61%);
+    border: none;
+    padding: .7rem 1rem;
+    width: clamp(150px, 80vw, 230px);
+    display: block;
+    margin: 1.5rem auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home>div {
+    padding: 1rem;
+}
+
+.home .date {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: 2rem 0;
+}
+
+.home .date>div {
+    flex-basis: 150px;
+    display: flex;
+    flex-grow: 1;
+    color: hsl(4, 100%, 61%);
+    gap: 5px;
+}
+
+.home .date p {
+    font-size: .8rem;
+    font-weight: .85rem;
+}
+
+.home .date img {
+    height: 18px;
+}
