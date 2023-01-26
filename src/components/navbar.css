@@ -21,15 +21,44 @@ nav {
 
 .links {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    background: hsl(4, 100%, 61%);
+    padding: 1rem;
+    position: absolute;
+    z-index: 800;
+    top: 100%;
+    left: -100%;
+    height: calc(100vh - 3rem);
+    width: clamp(100px, 80vw, 300px);
+    transition: all.3s ease;
+}
+
+.open-nav {
+    left: 0%;
 }
 
 .links a {
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    display: inline-block;
+    margin: .6rem 0;
+    color: white;
 }
 
 .links .cart-route {
     display: flex;
+}
+
+.hamburger {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.hamburger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: hsl(4, 100%, 61%);
+    margin: 4px 0;
 }

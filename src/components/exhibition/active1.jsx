@@ -1,12 +1,12 @@
 import arrowDown from "../../assets/Drop-down chevron.png";
 import "./active.css";
 import { useState } from "react";
+import Active from "../../assets/Active Image1.png";
 
 function Active1() {
   const [show, setShow] = useState(false);
   return (
     <div className="active-exhibition-tab">
-      <img src="" alt="" />
       <p className="about">
         “Abandoned Dust Bowl Home”
         <br /> Gelatin silver print
@@ -35,6 +35,14 @@ function Active1() {
           of the force and power of it."[3]
         </p>
       )}
+    </div>
+  );
+}
+
+export function ActiveImg() {
+  return (
+    <div className="active-img">
+      <img src={Active} alt="silver print" />
     </div>
   );
 }
